@@ -1,23 +1,24 @@
 @charset "UTF-8";
 
 #container {
-	width: 700px;
-	min-height: 700px;
+	width: 400px;
+	min-height: 800px;
 	float: left;
 	margin: 15px 35px;
+	fill:white;
 }
 #states path {
-	fill: #585858;
-	stroke: #000000;
+	fill: #d6d6d6;
+	stroke: #6b6b6b;
 	stroke-width: 1.5px;
 }
 
 #states path:hover {
-	fill: #009300;
+	fill: #7688ee;
 }
 
 #states .active {
-	fill: #00B700;
+	fill: #7688ee;
 }
 
 #states .activeDetail {
@@ -31,5 +32,6 @@
 #states text {
 	cursor: pointer;
 	font-size: 12px;
-	fill: #fff;
+	font-weight: bold;
+	fill: rgb(39, 39, 41);
 }
